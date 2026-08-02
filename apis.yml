@@ -1,8 +1,25 @@
 aid: synplicity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synplicity.png
 name: Synplicity
-description: 'Synplicity is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Synplicity, Inc. was a supplier of software for the design of programmable logic devices
+  (FPGAs, PLDs and CPLDs) used in communications, military/aerospace, consumer, semiconductor and
+  computer systems. Its tools provided logic synthesis, physical synthesis, ASIC prototyping and
+  verification for FPGA and DSP designers (Synplify, Synplify Pro, Identify). Synplicity was acquired
+  by Synopsys for approximately $227 million, with the transaction completed on 2008-05-15, and no
+  longer operates as an independent company. The legacy domain synplicity.com now 301-redirects to
+  synopsys.com. This profile was surfaced as a portfolio company of Norwest Venture Partners; it has
+  no independent public API surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/synplicity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,20 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: synopsys
+x-acquired-date: '2008-05-15'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Electronic Design Automation
+- EDA
+- FPGA
+- Semiconductors
+- Logic Synthesis
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,10 @@ maintainers:
 common:
 - type: Website
   url: https://synplicity.com
+- type: Acquirer
+  url: https://www.synopsys.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
