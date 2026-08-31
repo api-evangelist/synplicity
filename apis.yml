@@ -59,6 +59,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/synopsys/
+  name: Synopsys
+  x-relationship: acquired
+  x-evidence: "Synplicity was acquired by Synopsys for approximately $227 million, with the transaction completed on 2008-05-15, and no longer operates as an independent company."
 - type: Website
   url: https://synplicity.com
 - type: Acquirer
