@@ -23,14 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synplicity.png
 name: Synplicity
-description: 'Synplicity, Inc. was a supplier of software for the design of programmable logic devices
-  (FPGAs, PLDs and CPLDs) used in communications, military/aerospace, consumer, semiconductor and
-  computer systems. Its tools provided logic synthesis, physical synthesis, ASIC prototyping and
-  verification for FPGA and DSP designers (Synplify, Synplify Pro, Identify). Synplicity was acquired
-  by Synopsys for approximately $227 million, with the transaction completed on 2008-05-15, and no
-  longer operates as an independent company. The legacy domain synplicity.com now 301-redirects to
-  synopsys.com. This profile was surfaced as a portfolio company of Norwest Venture Partners; it has
-  no independent public API surface to enrich.'
+description: Synplicity, Inc. was a supplier of software for the design of programmable logic devices
+  (FPGAs, PLDs and CPLDs) used in communications, military/aerospace, consumer, semiconductor and computer
+  systems. Its tools provided logic synthesis, physical synthesis, ASIC prototyping and verification for
+  FPGA and DSP designers (Synplify, Synplify Pro, Identify). Synplicity was acquired by Synopsys for approximately
+  $227 million, with the transaction completed on 2008-05-15, and no longer operates as an independent
+  company. The legacy domain synplicity.com now 301-redirects to synopsys.com. This profile was surfaced
+  as a portfolio company of Norwest Venture Partners; it has no independent public API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/synplicity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -43,7 +42,7 @@ x-acquired-by: synopsys
 x-acquired-date: '2008-05-15'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Electronic Design Automation
@@ -52,6 +51,7 @@ tags:
 - Semiconductors
 - Logic Synthesis
 - Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -63,7 +63,8 @@ common:
   url: https://apis.io/providers/synopsys/
   name: Synopsys
   x-relationship: acquired
-  x-evidence: "Synplicity was acquired by Synopsys for approximately $227 million, with the transaction completed on 2008-05-15, and no longer operates as an independent company."
+  x-evidence: Synplicity was acquired by Synopsys for approximately $227 million, with the transaction
+    completed on 2008-05-15, and no longer operates as an independent company.
 - type: Website
   url: https://synplicity.com
 - type: Acquirer
